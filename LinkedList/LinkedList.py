@@ -11,58 +11,33 @@ class LinkedList:
 
     The new node should be added to the front of the list.
 
-    TODO: Implement this function
     """
     def add(self, payload):
-        node = LinkedList(payload)
-        node.next = self.next 
-        self.next = node
+        #TODO: Implement this function
         
 
     """ Remove - Remove the node from the list that equals query 
     
-    TODO: Implement this function
     """
     def remove(self, query):
-        cur = self.next
-        prev = self
-
-        while(cur.next != None):
-            if cur.pl == query:
-                prev.next = cur.next
-                return True
-
-            cur = cur.next
-            prev = prev.next
-
-        return False
+        #TODO: Implement this function
 
     """ Search - Search for query in the list.
 
     If query is found, then the item that was added to the node, if it isn't
     then False will be returned
 
-    TODO: Implement this function
     """
     def search(self, query):
-        cur = self
-
-        while(cur.next != None):
-
-            if cur.pl == query:
-                return cur.pl
-
-            cur = cur.next
-        
-        return False
+        #TODO: Implement this function
 
     """ isEmpty - Return True if the list is Empty, False otherwise
 
     TODO: Implement this function
     """
     def isEmpty(self):
-        if self.next == None:
-            return True
+        #TODO: Implement this function
+
 
     def print_list(self):
         i=0
