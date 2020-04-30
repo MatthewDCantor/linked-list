@@ -16,9 +16,7 @@ class LinkedList:
         #TODO: Implement this function
         
 
-    """ Remove - Remove the node from the list that equals query 
-    
-    """
+    """ Remove - Remove the node from the list that equals query """
     def remove(self, query):
         #TODO: Implement this function
 
@@ -26,19 +24,18 @@ class LinkedList:
 
     If query is found, then the item that was added to the node, if it isn't
     then False will be returned
-
     """
     def search(self, query):
         #TODO: Implement this function
 
     """ isEmpty - Return True if the list is Empty, False otherwise
 
-    TODO: Implement this function
     """
     def isEmpty(self):
         #TODO: Implement this function
 
 
+    """ Print a linked list """
     def print_list(self):
         i=0
         cur = self.next

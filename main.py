@@ -69,10 +69,8 @@ def test_linked_list(lst, nItems):
 if __name__ == "__main__":
     random.seed(1)
 
-    print("Starting")
 
     items = generate_numbers(10, 0, 10)
-
     lst = init_list()
 
     if not lst.isEmpty:
@@ -82,5 +80,6 @@ if __name__ == "__main__":
         lst.add(item)
 
 
-    test_linked_list(lst, 10)
+    # Uncomment this function call when you're ready to test
+    # test_linked_list(lst, 10)
     

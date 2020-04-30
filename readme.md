@@ -1,6 +1,8 @@
 
 [https://python.org]
+
 [https://atom.io]
+
 [https://git-scm.com]
 
 
@@ -29,4 +31,5 @@ key-bindings.
 
 
 [https://vim.org]
+
 [https://gnu.org/software/emacs/]
