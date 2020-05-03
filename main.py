@@ -81,5 +81,5 @@ if __name__ == "__main__":
 
 
     # Uncomment this function call when you're ready to test
-    # test_linked_list(lst, 10)
+    test_linked_list(lst, 10)
     
